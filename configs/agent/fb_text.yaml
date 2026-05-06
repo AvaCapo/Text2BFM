@@ -1,0 +1,5 @@
+global_seed: 42
+
+training_constants:
+  train_steps: 1000000
+  eval_steps: 100000

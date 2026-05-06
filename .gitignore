@@ -1,0 +1,9 @@
+.venv
+metamotivo/metamotivo-S-1-datasets
+**/__pycache__
+wandb/
+**.hdf5
+.vscode
+.hydra
+notebooks/imitation_text.ipynb
+notebooks/metamotivo-S-1-datasets

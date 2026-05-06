@@ -1,0 +1,22 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - agent: fb_text
+  - experiment: null
+
+  # Disabling Hydra additional logging 
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+use_wandb: False
+exp_path: outputs
+tags: ???
+
+algo_name: MDM # AR, MotionDiff, MDM
+
+hydra:
+  searchpath:
+    - file://configs
+  run:
+    dir: .
